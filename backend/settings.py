@@ -74,8 +74,10 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'backend.urls'
 
 CSRF_TRUSTED_ORIGINS = [
-    'sei75finalprojectbackend.railway.internal',
-    'sei75finalprojectbackend-production-1da0.up.railway.app'
+    'sei75finalprojectbackend.railway.internal/',
+    'sei75finalprojectbackend-production-1da0.up.railway.app/',
+    'https://*sei75finalprojectbackend-production-1da0.up.railway.app',
+    'https://*.railway.app/'
 ]
 
 TEMPLATES = [
