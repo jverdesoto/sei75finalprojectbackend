@@ -37,7 +37,11 @@ SECRET_KEY = 'django-insecure-qpdgihvsni8dmz2g%w&_dop0)shn+^^bqu=wa1iw#(cd1oupa$
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'sei75finalprojectbackend-production.up.railway.app',
+    'sei75finalprojectbackend.railway.internal',
+    'sei75finalprojectbackend-production-1da0.up.railway.app'
+]
+
+CSRF_TRUSTED_ORIGINS = [
     'sei75finalprojectbackend.railway.internal',
     'sei75finalprojectbackend-production-1da0.up.railway.app'
 ]
