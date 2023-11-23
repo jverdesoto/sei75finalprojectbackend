@@ -37,6 +37,7 @@ SECRET_KEY = 'django-insecure-qpdgihvsni8dmz2g%w&_dop0)shn+^^bqu=wa1iw#(cd1oupa$
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    'localhost',
     'sei75finalprojectbackend.railway.internal',
     'sei75finalprojectbackend-production-1da0.up.railway.app'
 ]
@@ -74,10 +75,9 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'backend.urls'
 
 CSRF_TRUSTED_ORIGINS = [
-    'sei75finalprojectbackend.railway.internal/',
-    'sei75finalprojectbackend-production-1da0.up.railway.app/',
     'https://*sei75finalprojectbackend-production-1da0.up.railway.app',
-    'https://*.railway.app/'
+    'https://*.railway.app/',
+    'http://localhost/'
 ]
 
 TEMPLATES = [
