@@ -39,7 +39,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'localhost',
     'sei75finalprojectbackend.railway.internal',
-    'sei75finalprojectbackend-production-1da0.up.railway.app'
+    'sei75finalprojectbackend-production.up.railway.app'
 ]
 
 # Application definition
